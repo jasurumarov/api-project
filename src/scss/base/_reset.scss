@@ -6,20 +6,39 @@
   scroll-behavior: smooth;
 }
 
+body {
+  cursor: default !important;
+}
+
 input {
+  cursor: pointer !important;
   outline: none;
 }
 
 button {
+  cursor: pointer !important;
   border: none;
   background: none;
 }
 
 a {
+  cursor: pointer !important;
   text-decoration: none;
   color: inherit;
 }
 
 ul {
   list-style-type: none;
+}
+
+li {
+  cursor: pointer !important;
+}
+
+select {
+  cursor: pointer !important;
+}
+
+label {
+  cursor: pointer !important;
 }
