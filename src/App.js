@@ -6,6 +6,7 @@ import Hero from "./components/hero/Hero";
 import Products from "./components/products/Products";
 import BenefitsBottom from "./components/benefits-bottom/BenefitsBottom";
 import "./scss/style.scss"
+import Footer from "./components/footer/Footer";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Products/>
       <Delivery/>
       <BenefitsBottom/>
+      <Footer/>
     </div>
   );
 }
