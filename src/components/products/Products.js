@@ -34,7 +34,7 @@ const Products = () => {
     ))
 
     let cards = data?.slice(0, 10)?.map(el => (
-        <div key={el.id} className="products-section__product">
+        <div data-aos="flip-left" data-aos-anchor-placement="center-bottom" key={el.id} className="products-section__product">
             <div className="products-section__product__img">
                 <img src={el.thumbnail} alt="" />
             </div>
